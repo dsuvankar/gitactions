@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my-api
+    restart: unless-stopped
+    ports:
+      - "8005:8080"
