@@ -1,0 +1,70 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+
+# Build / output
+dist/
+build/
+out/
+/.parcel-cache/
+/.cache/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+.history/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Runtime data
+/pids/
+*.pid
+*.pid.lock
+
+# Misc
+.eslintcache
+.envrc
+.parcel-cache
+.turbo
+.next/
+.nuxt/
+.node_repl_history
+
+# Package manager folders
+.pnp/
+.pnp.js
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
